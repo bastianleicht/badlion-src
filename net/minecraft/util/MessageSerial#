@@ -1,0 +1,21 @@
+***************
+*** 37,45 ****
+           packetbuffer.func_150787_b(integer.intValue());
+  
+           try {
+-             if(p_encode_2_ instanceof S0CPacketSpawnPlayer) {
+-                p_encode_2_ = p_encode_2_;
+-             }
+  
+              p_encode_2_.func_148840_b(packetbuffer);
+           } catch (Throwable throwable) {
+--- 37,45 ----
+           packetbuffer.func_150787_b(integer.intValue());
+  
+           try {
++ //            if(p_encode_2_ instanceof S0CPacketSpawnPlayer) {
++ //               p_encode_2_ = p_encode_2_;
++ //            }
+  
+              p_encode_2_.func_148840_b(packetbuffer);
+           } catch (Throwable throwable) {

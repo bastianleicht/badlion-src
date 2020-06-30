@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: Start
+
+Name: com/sun/jna/
+Implementation-Title: com.sun.jna
+Bundle-Description: JNA Library
+Bundle-SymbolicName: com.sun.jna
+Implementation-Version: 3.4.0 (b5)
+Specification-Vendor: JNA Development Team
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-ActivationPolicy: lazy
+Specification-Title: Java Native Access (JNA)
+Bundle-Vendor: JNA Development Team
+Implementation-Vendor: JNA Development Team
+Export-Package: com.sun.jna,com.sun.jna.ptr,com.sun.jna.win32
+Bundle-Name: jna
+Bundle-Version: 3
+Bundle-NativeCode: com/sun/jna/win32-x86/jnidispatch.dll; processor=x8
+ 6;osname=win32, com/sun/jna/win32-amd64/jnidispatch.dll; processor=x8
+ 6-64;osname=win32, com/sun/jna/w32ce-arm/jnidispatch.dll; processor=a
+ rm;osname=wince,  com/sun/jna/sunos-x86/libjnidispatch.so; processor=
+ x86;osname=sunos, com/sun/jna/sunos-amd64/libjnidispatch.so; processo
+ r=x86-64;osname=sunos, com/sun/jna/sunos-sparc/libjnidispatch.so; pro
+ cessor=sparc;osname=sunos, com/sun/jna/sunos-sparcv9/libjnidispatch.s
+ o; processor=sparcv9;osname=sunos,  com/sun/jna/linux-ppc/libjnidispa
+ tch.so; processor=ppc;osname=linux, com/sun/jna/linux-ppc64/libjnidis
+ patch.so; processor=ppc64;osname=linux, com/sun/jna/linux-i386/libjni
+ dispatch.so; processor=x86;osname=linux, com/sun/jna/linux-amd64/libj
+ nidispatch.so; processor=x86-64;osname=linux, com/sun/jna/linux-arm/l
+ ibjnidispatch.so; processor=arm;osname=linux, com/sun/jna/linux-ia64/
+ libjnidispatch.so; processor=ia64;osname=linux,  com/sun/jna/openbsd-
+ i386/libjnidispatch.so; processor=x86;osname=openbsd, com/sun/jna/fre
+ ebsd-i386/libjnidispatch.so; processor=x86;osname=freebsd, com/sun/jn
+ a/freebsd-amd64/libjnidispatch.so; processor=x86-64;osname=freebsd,  
+ com/sun/jna/darwin/libjnidispatch.jnilib; osname=macos,
+Specification-Version: 3
+
